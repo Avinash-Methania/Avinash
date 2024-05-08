@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <!--Like reg. forms login form, bank forms, application, feedback, search-->
+    
+    <form action="backend" method="post">
+        <div>
+            <label for="uname">Username:</label>
+            <input type="text" name="x" placeholder="Enter Name Here" value="Avinash" id="uname">
+        </div>
+        <br>
+        <div>
+            <label for="">email
+            </label>
+            <input type="email">
+        </div>
+        <br>
+        <label for="Password">Password</label>
+        <input type="password">
+        <br>
+        <label for="">dob</label>
+        <input type="date">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <input type="color">
+        <br>
+        <input type="url">
+        <br>
+        <input type="file">
+        <br>
+        <input type="month">
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="search">
+
+    <!--Radio Button, Check Boxes drop downs-->
+
+        <input type="checkbox" name="lang" id="java">
+        <label for="java">Java</label>
+        <br><br>
+        <input type="radio" name="" id="">
+        <label for="">Male</label>
+        <input type="radio" name="" id="">
+        <label for="">Female</label>
+        <br><br>
+        <select name="courses" id="course">
+            <optgroup label="IT">
+                <option value="j">Java</option>
+            <option value="p">Python</option>
+            </optgroup>
+            
+            <option value="N">.NET</option>
+
+        </select>
+        <button type="submit">
+            Submit
+        </button>
+        
+    </form>
+</body>
+</html>
+<!--field set for grouping inputs
+and legend used for giving name-->
+<!--Assignment LLE Form 
+name,age,dob,email,gender radios,types of vehicles(check box-2 wheeler,4-wheeler),
+vehicles category wise dropdown submit button-->

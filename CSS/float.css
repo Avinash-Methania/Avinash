@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.box1{
+    float: right;
+}
+img{
+    float:left;
+}
+.banner{
+    width: 100%;
+    padding: 50px;
+    
+}
+.box2{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.box3{
+    border-radius: 50%;
+
+}

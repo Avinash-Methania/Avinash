@@ -1,0 +1,25 @@
+.image{
+    width: 100px;
+}
+.box{
+    height: 50vh;
+    width: 80vw;
+    /* background-color: aqua; */
+}
+#para{
+    font-size: 1rem;
+    font-family: cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-style: oblique;
+    
+}
+#box2{
+    height: 50%;
+    width: 50%;
+    /* background-color: brown; */
+}
+body{
+    background-image: url(../Demos/Avi2.jpg);
+    background-size: cover;
+    background-position-x: ;
+}

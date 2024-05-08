@@ -1,0 +1,1 @@
+In line tag --> <h1 color
